@@ -1,7 +1,7 @@
 public class Calculator {
     public static void main(String[] args){
     }
-
+  
     public int multiply(int a, int b) {
         return a * b;
     }
@@ -11,5 +11,12 @@ public class Calculator {
             throw new IllegalArgumentException("Cannot divide by zero");
         }
         return a / b;
+
+    public int sum(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
     }
 }
